@@ -1,0 +1,61 @@
+
+body {
+    background-color: #f8f0ff;
+    color: #4a235a;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #e8d3ff !important;
+}
+
+.navbar-brand, .nav-link {
+    color: #4a235a !important;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #7a3bbf !important;
+}
+
+h1 {
+    color: #6a1b9a;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h2 {
+    color: #4a235a;
+    border-bottom: 3px solid #9c4dcc;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.card {
+    background: linear-gradient(to right, #f3e5f5, #e1bee7);
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #9c27b0;
+    border-color: #9c27b0;
+}
+
+.btn-primary:hover {
+    background-color: #7b1fa2;
+    border-color: #7b1fa2;
+}
+
+a {
+    color: #7a3bbf;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #6a1b9a;
+    text-decoration: underline;
+}
