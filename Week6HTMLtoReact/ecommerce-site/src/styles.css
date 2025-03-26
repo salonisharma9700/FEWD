@@ -1,0 +1,109 @@
+/* General Styling */
+body {
+    background-color: #f7f3f9; /* Light lilac background */
+    font-family: 'Poppins', sans-serif;
+    color: #4b0082; /* Deep purple text */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #6a0dad !important; /* Deep lilac */
+}
+
+.navbar .nav-link {
+    color: #ffffff !important; /* White text */
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+    color: #f0d9ff !important; /* Soft lilac hover */
+}
+
+.navbar .btn-outline-light {
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+.navbar .btn-outline-light:hover {
+    background-color: #9b59b6 !important;
+    border-color: #9b59b6 !important;
+    color: #ffffff !important;
+}
+
+/* Hero Banner */
+.hero-banner {
+    background: linear-gradient(to right, #9b59b6, #6a0dad);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #9b59b6;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #6a0dad;
+}
+
+/* Product Card */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(106, 13, 173, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: #6a0dad;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-text {
+    color: #4b0082;
+}
+
+/* Featured Products */
+.featured-section {
+    background: linear-gradient(to right, #f7e1ff, #e3b5ff);
+    padding: 60px 0;
+    text-align: center;
+}
+
+.featured-title {
+    color: #6a0dad;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #6a0dad;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+footer a {
+    color: #f0d9ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
