@@ -1,0 +1,234 @@
+body {
+    background-color: #f7f3f9;
+}
+
+.lilac-dark {
+    background-color: #6a0dad !important;
+}
+
+.lilac-header {
+    background: linear-gradient(to right, #9b59b6, #6a0dad);
+}
+
+.lilac-card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(106, 13, 173, 0.2);
+}
+
+.lilac-btn {
+    background-color: #9b59b6;
+    color: white;
+    border: none;
+}
+
+.lilac-btn:hover {
+    background-color: #6a0dad;
+}
+
+
+
+body {
+    background-color: #f7f3f9;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #6a0dad !important;
+}
+
+.navbar .nav-link, .navbar .btn-outline-light {
+    color: #ffffff !important;
+}
+
+.navbar .btn-outline-light:hover {
+    background-color: #9b59b6;
+    border-color: #9b59b6;
+}
+
+h2 {
+    color: #6a0dad;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(106, 13, 173, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: #6a0dad;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    background-color: #6a0dad;
+    color: white;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background-color: #9b59b6;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #6a0dad;
+}
+
+
+/* General styling */
+body {
+    background-color: #f7f3f9;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #6a0dad !important;
+}
+
+.navbar .nav-link, .navbar .btn-outline-light {
+    color: #ffffff !important;
+}
+
+.navbar .btn-outline-light:hover {
+    background-color: #9b59b6;
+    border-color: #9b59b6;
+}
+
+/* Gallery Styling */
+h2 {
+    color: #6a0dad;
+    font-weight: bold;
+}
+
+.img-fluid {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.img-fluid:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(106, 13, 173, 0.3);
+}
+
+/* Footer */
+footer {
+    background-color: #6a0dad;
+    color: white;
+    font-size: 14px;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #9b59b6;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #6a0dad;
+}
+/* General Styling */
+body {
+    background-color: #f7f3f9;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #6a0dad !important;
+}
+
+.navbar .nav-link, .navbar .btn-outline-light {
+    color: #ffffff !important;
+}
+
+.navbar .btn-outline-light:hover {
+    background-color: #9b59b6;
+    border-color: #9b59b6;
+}
+
+/* Contact Form */
+.container h2 {
+    color: #6a0dad;
+    font-weight: bold;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(106, 13, 173, 0.2);
+}
+
+.form-control {
+    border: 1px solid #9b59b6;
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    border-color: #6a0dad;
+    box-shadow: 0 0 5px rgba(106, 13, 173, 0.3);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #9b59b6;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #6a0dad;
+}
+
+/* Footer */
+footer {
+    background-color: #6a0dad;
+    color: white;
+    font-size: 14px;
+}
+/* Navbar Styling */
+.navbar {
+    background-color: #6a0dad !important; /* Dark purple background */
+}
+
+.navbar .nav-link {
+    color: #ffffff !important; /* Make all navbar links white */
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #f0d9ff !important; /* Light purple on hover */
+}
+
+.navbar .btn-outline-light {
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+.navbar .btn-outline-light:hover {
+    background-color: #9b59b6 !important;
+    border-color: #9b59b6 !important;
+    color: #ffffff !important;
+}
+
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;  /* Ensure navbar links stay white */
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: #f0d9ff !important; /* Light purple on hover */
+}
