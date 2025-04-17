@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <style>
+        body {
+            background-color: #f5f0ff;
+            font-family: 'Poppins', sans-serif;
+            color: #4a235a;
+        }
+        .feedback-card {
+            max-width: 600px;
+            margin: auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            border: 1px solid #e0c8ff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+        }
+        h2 {
+            color: #6a1b9a;
+            font-weight: 600;
+            text-align: center;
+            border-bottom: 2px solid #9c4dcc;
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+        .form-floating label {
+            color: #6a1b9a;
+        }
+        .form-control, .form-range {
+            border: 1px solid #d1b3ff;
+        }
+        .form-control:focus {
+            border-color: #9c27b0;
+            box-shadow: 0 0 5px rgba(156, 39, 176, 0.4);
+        }
+        .btn-primary {
+            background-color: #9c27b0;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #7b1fa2;
+        }
+        .rating-value {
+            font-weight: bold;
+            color: #9c27b0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container mt-5">
+        <div class="feedback-card">
+            <h2>Feedback Form</h2>
+            
+            <form>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    <label for="name">Name (Optional)</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    <label for="email">Email (Optional)</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+                    <label for="phone">Phone (Optional)</label>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Rate Our Service</label>
+                    <input type="range" class="form-range" min="1" max="10" step="1" id="rating" oninput="updateRating(this.value)">
+                    <p class="text-center mt-1">Rating: <span class="rating-value" id="ratingValue">5</span>/10</p>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" id="question" placeholder="Enter your questions here" rows="3"></textarea>
+                    <label for="question">Any Questions Regarding Product or Service</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" id="comments" placeholder="Enter additional comments" rows="3"></textarea>
+                    <label for="comments">Additional Comments (Optional)</label>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100">Submit Feedback</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function updateRating(value) {
+            document.getElementById('ratingValue').textContent = value;
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .feedback-card {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+        .rating-value {
+            font-weight: bold;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="feedback-card">
+            <h2 class="text-center text-primary mb-4">Feedback Form</h2>
+            
+            <form>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    <label for="name">Name (Optional)</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    <label for="email">Email (Optional)</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+                    <label for="phone">Phone (Optional)</label>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Rate Our Service</label>
+                    <input type="range" class="form-range" min="1" max="10" step="1" id="rating" oninput="updateRating(this.value)">
+                    <p class="text-center mt-1">Rating: <span class="rating-value" id="ratingValue">5</span>/10</p>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" id="question" placeholder="Enter your questions here" rows="3"></textarea>
+                    <label for="question">Any Questions Regarding Product or Service</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" id="comments" placeholder="Enter additional comments" rows="3"></textarea>
+                    <label for="comments">Additional Comments (Optional)</label>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100">Submit Feedback</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function updateRating(value) {
+            document.getElementById('ratingValue').textContent = value;
+        }
+    </script>
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
